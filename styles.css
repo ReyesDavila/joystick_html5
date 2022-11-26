@@ -1,0 +1,84 @@
+*{
+	background: black;
+	color: white;
+	-webkit-touch-callout: none;
+ 	-webkit-user-select: none;
+    	-moz-user-select: none;
+   	 -khtml-user-select: none;
+   	 -ms-user-select:none;
+	font-size: 1.5em
+}
+
+
+body{
+margin-left: 2vw;
+margin-top: 2vh;
+background-color: transparent;
+color: white;
+width: 96vw;
+height: 96vh;
+}
+
+
+#variables{
+	background: transparent;
+   	 -webkit-user-select: none;
+    	-moz-user-select: none;
+   	 -khtml-user-select: none;
+   	 -ms-user-select:none;
+}
+
+
+#full_screen_butom{
+   	 -webkit-user-select: none;
+    	-moz-user-select: none;
+   	 -khtml-user-select: none;
+   	 -ms-user-select:none;
+
+background: transparent;
+width: 1.2em;
+height: 1em;
+position: absolute;
+text-align: center;
+top: 5px;
+right: 5px;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+#joystick_palanca{
+position: absolute;
+width: 20vw;
+height: 20vw;
+background: transparent;
+border: 1px solid white;
+border-radius: 50%;
+}
+
+#joystick_base{
+background: transparent;
+position: absolute;
+width: 30vw;
+height: 30vw;
+border: 2px solid white;
+border-radius: 50%;
+}
+
+
+#box{
+background: transparent;
+position: absolute;
+width: 5vw;
+height: 5vw;
+border: 1px solid white;
+border-radius: 5px;
+top: 0px;
+left: 0px;
+}
+
+@media (orientation: landscape){
+#box{
+width:5vh;
+height: 5vh;
+}
+}
